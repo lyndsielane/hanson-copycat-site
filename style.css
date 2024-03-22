@@ -1,0 +1,41 @@
+/*Navigation Bar*/
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 200px;
+}
+
+.login ul {
+  color: white;
+  list-style: none;
+  display: flex;
+}
+
+.login li {
+  padding: 0px 0px 0px 45px;
+}
+
+.nav-links ul {
+  color: white;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0px 15px;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 250px 0px 0px;
+}
